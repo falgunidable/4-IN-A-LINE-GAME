@@ -1,6 +1,5 @@
 # DEFAULT
 On the verge of making 4 IN A LINE game
-                                                                                         4 IN A LINE
                                                                                          
 Description:
 This game is played on a vertical board which has seven hollow columns and six rows. Each column has a hole in the upper part of the board, where pieces are introduced. There is a window for every square, so that pieces can be seen from both sides, when talked about the physical board.  Basically it is a vertical board with 42 windows distributed in 6 rows and 7 columns. Both players get a set of 21 thin pieces (like coins); each of them uses a different color. The board is empty at the start of the game.
