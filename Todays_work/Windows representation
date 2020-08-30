@@ -1,0 +1,25 @@
+- DECOMPOSITION
+
+•	Make a default background 
+•	Make a grid of 6 rows 7 columns
+•	Get 42 coins arranged on the screen, 21 black coins for one player and 21 red coins for another player
+•	Try to place the coins one after the other on the grids provided, turn by turn
+•	The coins should be allowed to place one by one on the grid in the form of stacks.
+
+- PATTERN RECOGNITION
+
+•	While placing it, accordingly go on checking if 4 coins of same color are formed, horizontally, vertically or diagonally
+•	If all the grids get filled with the coins and no 4 coins, of any color, in a row are formed than the game is a draw
+•	If 4 coins in a row, of any player is formed, than the game is won with a message of winning
+ 
+- ABSTRACTION
+
+•	If the game is won no further moves are given and there is no need to fill the whole grid in order to complete the game.
+•	The game resets to its original grid, which is blank, when the game is drawn or when it is won.
+
+- Requirements considered, before starting with the actual programming of the game:
+
+Canvas - This object represents a background entity on which you place interface items, such as check boxes, radio groups, and text items.
+Panel – a particular arrangement of information grouped together for presentation to users in a window or pop-up view.
+Window - A window is a container for all visual objects that make up a Form Builder application, including canvas. A single form can include n number of windows.
+Movement of one window to another is called activity movement, which will be implemented in the code.
