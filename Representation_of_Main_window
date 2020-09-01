@@ -1,0 +1,22 @@
+import tkinter as tk
+from tkinter import *
+
+window = tk.Tk()
+window.configure(bg = "green")
+
+window.geometry('600x600')
+
+label = tk.Label(text="\n\n\n\nWelcome to 4 IN A LINE Game", bg = "green", font = ("Bookman Old Style",15,"bold"))
+label.pack()
+
+button = tk.Button(text="INSTRUCTIONS",width=15,height=1,bg="black",fg="yellow")
+button.place(x = 240, y=350)
+
+button = tk.Button(text="START",width=10,height=1,bg="black",fg="yellow")
+button.place(x = 210, y=300)
+
+button = tk.Button(text="QUIT",width=10,height=1,bg="black",fg="yellow")
+button.place(x = 310, y=300)
+
+
+window.mainloop()
