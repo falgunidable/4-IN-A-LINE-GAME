@@ -81,5 +81,5 @@ class PageTwo(tk.Frame):
         button1.pack()
 
 
-app = First_Window()
-app.mainloop()
+my_game = First_Window()
+my_game.mainloop()
